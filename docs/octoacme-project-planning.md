@@ -41,3 +41,14 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+- [ ] Persona owners identified for the initiative:
+  - [ ] Release Manager assigned
+  - [ ] Tech Lead assigned
+  - [ ] QA Lead assigned
+  - [ ] SRE/DevOps owner assigned
+  - [ ] Security Liaison assigned (if security-sensitive)
+  - [ ] Data Lead assigned (if metrics required)
+  - [ ] Support Liaison assigned (if customer-facing)
+  - [ ] Other cross-functional roles assigned as needed
+
+See [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md) for detailed role definitions and responsibilities.

@@ -17,6 +17,17 @@ Guidance for managing day-to-day execution and tracking progress toward project 
   - Require at least one approval before merging (or team-defined policy)
 
 ## Quality & Testing
+
+### Role-owned quality gates
+Specific quality gates are owned by designated roles to ensure clear accountability and expertise. For full role definitions and interactions, see [octoacme-roles-and-personas.md](./octoacme-roles-and-personas.md).
+
+- **QA Lead:** Owns acceptance testing and feature validation gate
+- **Security Liaison:** Owns security scanning and vulnerability assessment gate
+- **SRE/DevOps:** Owns observability, monitoring, and infrastructure readiness gate
+- **Tech Lead:** Owns code quality, architecture review, and technical design gate
+- **Data Lead:** Owns instrumentation validation and metrics readiness gate (when applicable)
+
+### Testing approach
 - Unit tests for new logic
 - Integration tests where applicable
 - End-to-end smoke tests for critical flows before release
@@ -38,3 +49,4 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
 - [ ] Risk register updated weekly
+- [ ] Role sign-offs for release readiness recorded (QA Lead, Security Liaison, SRE, Data Lead as applicable)
